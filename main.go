@@ -39,7 +39,7 @@ func main() {
 	reader := bufio.NewReader(os.Stdin) // create a buffered reader to read user input
 
 	for { 
-		fmt.Printf("Choose your pick. Enter the number corresponding to your choice. \n \n") // Request for input
+		fmt.Printf("Choose your pick. Enter the number corresponding to your choice.\n Type Exit at anytime to quit the game. \n \n") // Request for input
 			// for loop to provide the user with options
 			for i, a := range choiceOptions { 
 				fmt.Println (i,":", a)

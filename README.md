@@ -20,7 +20,7 @@ This game is inspired by the popular variation of the classic Rock Paper Scissor
 
 ### Prerequisites
 
-- You need to have [Go](https://golang.org/dl/) installed on your machine (version 1.13+ recommended).
+- You need to have [Go](https://golang.org/dl/) installed on your machine (version 1.18+ recommended).
 - Basic familiarity with running commands in your terminal or command prompt.
 
 ### Installation Steps
@@ -32,24 +32,10 @@ git clone https://github.com/gismc123/rock-paper-scissors-lizard-spock.git
 cd rock-paper-scissors-lizard-spock
 ```
 
-2. **Build the game executable:**
+2. **Run the game in terminal:**
 
 ```bash
-go build -o rpsls
-```
-
-This will create an executable file named `rpsls` (or `rpsls.exe` on Windows).
-
-3. **Run the game:**
-
-```bash
-./rpsls
-```
-
-On Windows, run:
-
-```bash
-rpsls.exe
+go run main.go
 ```
 
 ---
